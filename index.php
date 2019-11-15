@@ -51,9 +51,9 @@
 	<section>
 		<h3>Our Employees</h3>
 		<ul>
-			<li><a decoy="href='" href="employees.php?id=0">William B. Pine</a></li>
-			<li><a decoy="href='" href="employees.php?id=1">Amy G. Ortiz</a></li>
-			<li><a decoy="href='" href="employees.php?id=2">Barbara G. Martin</a></li>
+			<li><a/href="employees.php?id=0"/href="">William B. Pine</a></li>
+			<li><a/href="employees.php?id=1"/href="">Amy G. Ortiz</a></li>
+			<li><a/href="employees.php?id=2"/href="">Barbara G. Martin</a></li>
 		</ul>
 	</section>
 
@@ -62,7 +62,7 @@
 
 		<div class='row mt-1'>
 			<div class="col-25 col-sm">
-				<a decoy="href='" href="gallery.php?src=/images/gym.jpg" class='card lift-hover'>
+				<a/href="gallery.php?src=/images/gym.jpg"/href=""/class='card lift-hover'>
 					<img src="./images/gym.jpg" class='card-image-top' />
 					<div class="card-body">
 						<h3 style='margin: 0px;color: #1e1e1e;'>Gym</h3>
@@ -71,7 +71,7 @@
 			</div>
 			
 			<div class="col-25 col-sm">
-				<a decoy="href='" href="gallery.php?src=/images/workplace.jpg" class='card lift-hover'>
+				<a/href="gallery.php?src=/images/workplace.jpg"/href=""/class='card lift-hover'>
 					<img src="./images/workplace.jpg" class='card-image-top' />
 					<div class="card-body">
 						<h3 style='margin: 0px;color: #1e1e1e;'>Workplace</h3>
@@ -80,7 +80,7 @@
 			</div>
 			
 			<div class="col-25 col-sm">
-				<a decoy="href='" href="gallery.php?src=/images/meeting.jpg" class='card lift-hover'>
+				<a/href="gallery.php?src=/images/meeting.jpg"/href=""/class='card lift-hover'>
 					<img src="./images/meeting.jpg" class='card-image-top' />
 					<div class="card-body">
 						<h3 style='margin: 0px;color: #1e1e1e;'>Meeting</h3>
@@ -89,7 +89,7 @@
 			</div>
 			
 			<div class="col-25 col-sm">
-				<a decoy="href='" href="gallery.php?src=/images/snooker.jpg" class='card lift-hover'>
+				<a/href="gallery.php?src=/images/snooker.jpg"/href=""/class='card lift-hover'>
 					<img src="./images/snooker.jpg" class='card-image-top' />
 					<div class="card-body">
 						<h3 style='margin: 0px;color: #1e1e1e;'>Snooker</h3>
