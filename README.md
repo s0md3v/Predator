@@ -33,7 +33,7 @@ The mind map below is a loosely made visualization of how the techniques demonst
 
 #### Bot Detection
 ##### User-Agent and Header Inspection
-Headers are often in different order when compared to a real browser or lack altogether. Many bots disclose themselves in the User-Agent header for the sake of ethics while others don't send one at all.
+HTTP headers sent by bots are often in different order when compared to a real browser or lack altogether. Many bots disclose themselves in the User-Agent header for the sake of ethics while others don't send one at all.
 
 ##### Webdriver Detection
 Most of the HTML mutation techniques described here can be bypassed with browser based frameworks such as `selenium` and `puppeteer` but they can be detected with various tests as implemented in [isBot.js](https://github.com/s0md3v/Predator/blob/initial/js/isBot.js).
