@@ -66,3 +66,6 @@ Predator mimics the followiwng vulnerabilities at the moment:
 - Local File Inclusion (LFI)
 
 This method makes it possible to set up a honeypot without actually hosting any vulnerable code and serves as a test bed for false positive testing.
+
+### Credits
+[PatheticGeek](https://github.com/patheticGeek) did all the front-end magic to make Predator look good.
