@@ -1,12 +1,6 @@
 <?php
 header("Protected-By: Predator v0.1-alpha");
 
-if (isset($_GET['id'])){
-	if (preg_match('/SLEEP\((\d+)\)/', $_GET['id'], $delay)){
-		sleep($delay[1]);
-	}
-}
-
 $employees = ['
 William B. Pine<br>
 4614 Doe Meadow Drive<br>
@@ -56,7 +50,6 @@ Blood type: O+<br>'
 
 if (isset($_GET['id'])) {
 	$id = $_GET['id'];
-/*	echo $id;*/
 	if (preg_match('/\d+=\d+/', $id)){
 		$num1 = preg_match('/(\d+)=/', $id, $re1);
 		$num2 = preg_match('/=(\d+)/', $id, $re2);
@@ -87,6 +80,7 @@ function binaryToString($binary)
 
 if (preg_match_all('/0x([a-f0-9]+)/', $id, $re)){
 	$str = hex2bin($re[1][0]).'1'.hex2bin($re[1][1]).hex2bin($re[1][2]);
+	$str = str_replace('<', '', $str);
 }
 
 echo '<!--SELECT * FROM ck_producttype  WHERE producttype_type='.$id.' AND producttype_status=1   ORDER BY producttype_sort asc <br />BIGINT value is out of range in \'(2 * if((select \''.$str.'\' from dual),'.$randnum.','.$randnum.'))\'. You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'\' ORDER BY trap_id asc\' at line 1-->';
