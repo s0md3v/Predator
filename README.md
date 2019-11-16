@@ -19,7 +19,7 @@
 
 ### Introduction
 Predator is a prototype web application designed to demonstrate anti-crawling, anti-automation & bot detection techniques.
-It can be used a honeypot, anti-crawling system or a false positive test bed for vulnerability scanners.
+It can be used as a honeypot, anti-crawling system or a false positive test bed for vulnerability scanners.
 
 > **Warning:** I strongly discourage the use of the demonstrated methods in a production server without knowing what they exactly do. Remember, only the techniques which seem usable according to the web application should be implemented. Predator is a collection of techniques, its code shouldn't be used as is.
 
